@@ -245,17 +245,20 @@ ul li {
   font-size: 23px;
   color: #3a3a3a;
   padding-top: 2%;
+  padding-left: 4%;
 }
 .pro-imgs h4 {
   font-size: 20px;
   color: #3a3a3a;
   padding-top: 3%;
+  padding-left: 4%;
 }
 .pro-imgs span,
 p {
   font-size: 16px;
   color: #898989;
   /* padding-top: 3%; */
+  padding-left: 4%;
 }
 
 .Products button {
@@ -319,7 +322,7 @@ p {
   font-size: 20px;
 }
 
-.content {
+/* .content {
   text-align: center;
   margin-top: 4%;
 }
@@ -329,18 +332,35 @@ p {
 }
 .content h5 {
   font-size: 22px;
+} */
+.furniture-section {
+  margin-top: 30px;
 }
-.content-1 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1%;
+.furniture-text {
+  text-align: center;
+  line-height: 2.3rem;
+  margin-bottom: 40px;
 }
-.content-2 {
+.furniture-text h1 {
+  font-size: 30px;
+}
+.furniture-imgs {
   display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   align-items: center;
-  justify-content: center;
-  gap: 1%;
+  /* justify-content: center; */
+}
+.furniture-row1 {
+  display: flex;
+  align-items: baseline;
+  /* gap: 20px; */
+}
+.furniture-row2 {
+  display: flex;
+  align-items: start;
+  /* gap: 20px; */
+  margin-top: 20px;
 }
 
 /* footer */
@@ -382,6 +402,9 @@ p {
 }
 .news {
   width: 402px;
+}
+.news P{
+  text-decoration: underline;
 }
 .help {
   width: 200px;
