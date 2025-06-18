@@ -16,7 +16,7 @@
       href="/Images/svg/Logo.svg "
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="cart.css" />
+    <link rel="stylesheet" href="check.css" />
   </head>
   <body>
     <section class="hero">
@@ -37,7 +37,7 @@
               <a href="#">About</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/Contact/contact.html">Contact</a>
             </li>
           </ul>
           <div class="hero-icons">
@@ -53,43 +53,79 @@
           </div>
           <div class="text">
             <img src="/Images/svg/Logo.svg" alt="" />
-            <h1>Cart</h1>
-            <h3>Home > Cart</h3>
+            <h1>Checkout</h1>
+            <h3>Home > Checkout</h3>
           </div>
         </div>
       </div>
     </section>
     <!-- Second Section -->
-    <section class="Quantity">
-      <div class="content">
-      <div class="content-1">
-
-          <div class="part-1">
-            <p>Product</p>
-            <p>Price</p>
-            <p>Quantity</p>
-            <p>Subtotal</p>
-          </div>
-          <div class="part-2">
-            <img src="/Images/Group 156.png" class="img-1" alt="" />
-            <p>Asgaard sofa</p>
-            <p>Rs. 250,000.00</p>
-            <p>1</p>
-            <p>Rs. 250,000.00</p>
-            <img src="/Images/svg/delete.svg" class="img-2" alt="" />
-          </div>
-      </div>
-        <div class="content-2">
-          <h2>Cart Totals</h2>
-          <p>Subtotal Rs. 250,000.00</p>
-          <h4>Total <span>Rs. 250,000.00</span></h4>
-          <a href="/Checkout/check.html">
-          <button>Check Out</button>
-          </a>
+    <section class="Billing">
+      <div class="details">
+        <h2>Billing details</h2>
+        <div class="name">
+          <label for="text">Name</label><br /> <br />
+          <label for="text">Last Name</label> <br /><br />
+        </div> <br />
+        <div class="last-name">
+          <input type="text" /><br /><br />
+          <input type="text" /><br /><br />
+        </div>
+        <br /> <br />
+        <div class="another">
+          <label for="text">Company Name (Optional)</label><br /><br />
+          <input type="text" /><br /><br />
+          <label for="text">Country / Region</label><br /><br />
+          <input type="text" value="Sri Lanka" /><br /><br />
+          <label for="text">Street address</label><br /><br />
+          <input type="text" /><br /><br />
+          <label for="text">Town / City</label><br /><br />
+          <input type="text" /><br /><br />
+          <label for="text">Province</label><br /><br />
+          <input type="text" value="Western Province" /><br /><br />
+          <label for="text">ZIP code</label><br /><br />
+          <input type="text" /><br /><br />
+          <label for="text">Phone</label><br /><br />
+          <input type="text" /><br /><br />
+          <label for="text">Address</label><br /><br />
+          <input type="text" value="Additional information" /><br /><br />
         </div>
       </div>
+      <div class="main-product">
+        <div class="product-1">
+          <div class="product">
+            <h3>Product</h3>
+            <p>Asgaard sofa x i</p>
+            <p>Subtotal</p>
+            <p>Total</p>
+          </div>
+          <div>
+            <h3>Subtotal</h3>
+            <p>Rs. 250,000.00</p>
+            <p>Rs. 250,000.00</p>
+            <span><p>Rs. 250,000.00</p></span>
+          </div>
+        </div>
+        <hr />
+        <h4>Direct Bank Transfer</h4>
+        <p>
+          Make your payment directly into our bank account. Please use <br />your
+          Order ID as the payment reference. Your order will not be <br />shipped
+          until the funds have cleared in our account.
+        </p>
+        <p>Direct Bank Transfer</p>
+        <p>Cash On Delivery</p>
+        <p>
+          Your personal data will be used to support your experience <br />throughout
+          this website, to manage access to your account, and <br />for other purposes
+          described in our privacy policy.
+        </p>
+        <a href="/Cart/cart.html">
+        <button>Place order</button>
+        </a>
+      </div>
     </section>
-     <div class="over">
+    <div class="over">
         <!-- High -->
         <div class="high">
           <div>
@@ -165,7 +201,5 @@
         <p>2023 furino. All rights reverved</p>
       </div> -->
     </footer>
-  </body>
-</html>
   </body>
 </html>

@@ -54,53 +54,6 @@
   background: #f5383859;
   background: #fea250;
   background: #ff7979;
-  background: linear-gradient(207.71deg, #ffd481 10.79%, #fa620c 128.64%);
-  background: linear-gradient(126.45deg, #ffd481 -31.99%, #fa620c 92.15%);
-  background: #ffecec;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0) 0%,
-    #fe9277 212.45%
-  );
-  background: #000000;
-  background: #afb5c0;
-  background: #b4b4b4;
-  background: #cf0606;
-  background: #e8e8e8;
-  background: #eeeff2;
-  background: #f0f0f0;
-  background: #f53855;
-  background: linear-gradient(202.61deg, #ffffff -41.76%, #d7d7d7 106.5%);
-  background: #42d2ff1a;
-  background: linear-gradient(184.67deg, #7f67ce -14.16%, #30235b 97.93%);
-  background: #9effae;
-  background: #e2e2e2;
-  background: #e7f2ff;
-  background: linear-gradient(
-    26.55deg,
-    #ececec -16.12%,
-    rgba(245, 245, 245, 0) 100%
-  );
-  background: #f7474312;
-  background: #f8f8f8;
-  background: linear-gradient(
-    180deg,
-    #f8f8f8 -45.04%,
-    rgba(248, 248, 248, 0) 88.56%
-  );
-  background: linear-gradient(183.72deg, #ff9f81 -12.7%, #f53838 114.19%);
-  background: linear-gradient(180deg, #ffd5b7 0%, #ffab6d 100%);
-  background: #ffdead;
-  background: linear-gradient(178.43deg, #ffefe0 -75.91%, #ffbe99 55.96%);
-  background: linear-gradient(180.92deg, #ffefe0 -112.42%, #ffbe99 68.91%);
-  background: linear-gradient(180deg, #ffefe0 0%, #ffbe99 100%);
-  background: linear-gradient(255.8deg, #ffefe0 -3.84%, #ffbe99 70.31%);
-  background: linear-gradient(180deg, #ffefe0 -52.38%, #ffbe99 82.64%);
-  background: linear-gradient(155.19deg, #ffefe0 0.65%, #ffbe99 69.62%);
-  background: linear-gradient(178.69deg, #ffefe0 -37.04%, #ffbe99 94.16%);
-  background: linear-gradient(180deg, #ffefe0 9.05%, #ffbe99 90.71%);
-  background: linear-gradient(180deg, #ffffff -30.19%, #cccccc 131.01%);
-  background: linear-gradient(268.2deg, #ffffff -32.15%, #cccccc 97.65%);
   background: #ffffff;
 }
 body {
@@ -322,17 +275,7 @@ p {
   font-size: 20px;
 }
 
-/* .content {
-  text-align: center;
-  margin-top: 4%;
-}
-.content h2 {
-  font-size: 40px;
-  padding-top: 1%;
-}
-.content h5 {
-  font-size: 22px;
-} */
+ 
 .furniture-section {
   margin-top: 30px;
 }
@@ -346,20 +289,19 @@ p {
 }
 .furniture-imgs {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
 }
 .furniture-row1 {
   display: flex;
   align-items: baseline;
-  /* gap: 20px; */
+  gap: 20px;
 }
 .furniture-row2 {
   display: flex;
   align-items: start;
-  /* gap: 20px; */
+  gap: 20px;
   margin-top: 20px;
 }
 

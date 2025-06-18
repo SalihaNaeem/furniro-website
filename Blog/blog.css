@@ -57,7 +57,6 @@
   background: #b4b4b4;
   background: #cf0606;
   background: #e8e8e8;
-
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -120,77 +119,197 @@ ul li {
 .text img {
   margin-right: 30px;
 }
-.Quantity {
+.blog {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
   margin-top: 5%;
 }
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 60px;
+.Categories input {
+  padding: 12px 51px;
+  border-radius: 8px;
+  border: 1px solid #9f9f9f;
 }
-
-.part-1 {
-  display: flex;
-  background-color: #f9f1e7;
-  height: 60px;
-  align-items: center;
-  justify-content: space-around;
+.Categories p {
+  color: #9f9f9f;
+  font-size: 16px;
+  padding-top: 50px;
 }
-.part-1 p {
-  font-size: 18px;
-  font-weight: 600;
-  color: #000000;
-  padding: 30px;
-}
-.part-2 {
-  display: flex;
-  gap: 20px;
-  margin-top: 4%;
-}
-.part-2 p {
-  padding-top: 80px;
-}
-
-.content-2 {
-  width: 360px;
-  height: 320px;
-  background-color: #f9f1e7;
+.Categories h3 {
+  padding-top: 40px;
   text-align: center;
 }
-.content-2 p {
-  margin-top: 8%;
+.icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+.user-icon {
+  display: flex;
+  gap: 10px;
+}
+.calender-icon {
+  display: flex;
+  gap: 10px;
+}
+.Wood-icon {
+  display: flex;
+  gap: 10px;
+}
+
+.Going-all {
+  margin-top: 2%;
+}
+.design p {
+  color: #9f9f9f;
+  padding-top: 10px;
+  /* letter-spacing: 0.04rem; */
+  line-height: 1.3rem;
+}
+
+.design h5 {
+  text-decoration: underline;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.design img {
+  margin-top: 25px;
+}
+.post-1,
+.post-2,
+.post-3,
+.post-4,
+.post-5{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+}
+.Recent-Posts h3{
+font-size: 30px;
+}
+.Recent-Posts img{
+    margin-top: 20px;
+}
+.Going-all{
+    display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 5%;
+}
+.icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+   margin-left: 120px;
+  gap: 30px;
+}
+.user-icon {
+  display: flex;
+  gap: 10px;
+}
+.calender-icon {
+  display: flex;
+  gap: 10px;
+}
+.Wood-icon {
+  display: flex;
+  gap: 10px;
+}
+.decorating{
+   margin-left: 120px;
+}
+.decorating-content p {
+  color: #9f9f9f;
+  padding-top: 10px;
+  /* letter-spacing: 0.04rem; */
+  line-height: 1.3rem;
+}
+
+.decorating-content h5 {
+  text-decoration: underline;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.decorating-content img{
+      margin-top: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 30px;
+}
+.user-icon {
+  display: flex;
+  gap: 10px;
+}
+.calender-icon {
+  display: flex;
+  gap: 10px;
+}
+.Wood-icon {
+  display: flex;
+  gap: 10px;
+}
+.Handmade-piece{
+   margin-left: 120px;
+}
+.Handmade p {
+  color: #9f9f9f;
+  padding-top: 10px;
+  /* letter-spacing: 0.04rem; */
+  line-height: 1.3rem;
+}
+
+.Handmade h5 {
+  text-decoration: underline;
+  font-size: 15px;
+  padding-top: 20px;
+}
+.btns {
+  margin-top: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 4%;
+}
+
+.btn-a {
+  padding: 8px 14px;
+  font-size: 16px;
+  background-color: #b88e2f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.btn-b {
+  padding: 8px 14px;
+  border-radius: 5px;
+
+  font-size: 16px;
+  background-color: #f9f1e7;
+  border: none;
+  color: #000000;
+}
+.btn-c {
+  padding: 8px 20px;
   font-size: 18px;
+  background-color: #f9f1e7;
+  border: none;
+  color: #000000;
+  border-radius: 5px;
 }
-.content-2 h2 {
-  margin-top: 10%;
-  font-size: 30px;
-}
-.content-2 h4 {
-  font-weight: 500;
-  padding-top: 15px;
-}
-span {
-  color: #b88e2f;
-  font-size: 20px;
-}
-.content-2 button {
-  border: 1px solid #000000;
-  font-weight: 500;
-  border-radius: 16px;
-  font-size: 18px;
-  padding: 15px 55px;
-  margin-top: 10%;
-  background-color: transparent;
-}
-/* over */
+
+/* second last section */
 .over {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   background-color: #f9f1e7;
   height: 250px;
-  margin-top: 5%;
 }
 .over p {
   font-size: 18px;
